@@ -1,0 +1,5 @@
+Original = "https://raw.githubusercontent.com/Muhammad-Taufiq-Khan/Perkinsons-Disease/main/Research%20Project%20(February%202022%20-%20September%202022)/Project%20Codes%20%26%20Data/Early%20Biomarkers%20of%20Parkinson's%20Disease/ModifiedSignalOriginal.csv"
+
+PDvsHC = "https://raw.githubusercontent.com/Muhammad-Taufiq-Khan/Perkinsons-Disease/main/Research%20Project%20(February%202022%20-%20September%202022)/Project%20Codes%20%26%20Data/Early%20Biomarkers%20of%20Parkinson's%20Disease/ModifiedSpeechPDvsHC.csv"
+
+PDvsRBD = "https://raw.githubusercontent.com/Muhammad-Taufiq-Khan/Perkinsons-Disease/main/Research%20Project%20(February%202022%20-%20September%202022)/Project%20Codes%20%26%20Data/Early%20Biomarkers%20of%20Parkinson's%20Disease/Modified%20PDvsRBD.csv"

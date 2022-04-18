@@ -1,0 +1,121 @@
+PS C:\Users\legen\Downloads\PD> & C:/Users/legen/AppData/Local/Microsoft/WindowsApps/python3.10.exe c:/Users/legen/Downloads/PD/Method_PDvsRBDvsHC.py
+
+Class Frequency: Original Test Set
+------> Two: 24, One: 43, Zero: 43, Others: 0, Total Class = 110
+
+Class Frequency: After Removing Outliers
+------> Two: 22, One: 40, Zero: 41, Others: 0, Total Class = 103
+
+
+[03:01:34] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.5.1/src/learner.cc:1115: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+Result of: SVC()
+              precision    recall  f1-score   support
+
+           0       0.45      0.71      0.56         7
+           1       0.44      0.57      0.50         7
+           2       0.00      0.00      0.00         6
+
+    accuracy                           0.45        20
+   macro avg       0.30      0.43      0.35        20
+weighted avg       0.31      0.45      0.37        20
+
+
+
+Result of: DecisionTreeClassifier()
+              precision    recall  f1-score   support
+
+           0       0.43      0.43      0.43         7
+           1       0.25      0.29      0.27         7
+           2       0.40      0.33      0.36         6
+
+    accuracy                           0.35        20
+   macro avg       0.36      0.35      0.35        20
+weighted avg       0.36      0.35      0.35        20
+
+
+
+Result of: RandomForestClassifier(n_estimators=1000)
+              precision    recall  f1-score   support
+
+           0       0.42      0.71      0.53         7
+           1       0.29      0.29      0.29         7
+           2       1.00      0.17      0.29         6
+
+    accuracy                           0.40        20
+   macro avg       0.57      0.39      0.37        20
+weighted avg       0.55      0.40      0.37        20
+
+
+
+Result of: LogisticRegression()
+              precision    recall  f1-score   support
+
+           0       0.60      0.43      0.50         7
+           1       0.50      0.71      0.59         7
+           2       0.40      0.33      0.36         6
+
+    accuracy                           0.50        20
+   macro avg       0.50      0.49      0.48        20
+weighted avg       0.51      0.50      0.49        20
+
+
+
+Result of: KNeighborsClassifier(n_neighbors=25)
+              precision    recall  f1-score   support
+
+           0       0.38      0.71      0.50         7
+           1       0.29      0.29      0.29         7
+           2       0.00      0.00      0.00         6
+
+    accuracy                           0.35        20
+   macro avg       0.22      0.33      0.26        20
+weighted avg       0.23      0.35      0.28        20
+
+
+
+Result of: GradientBoostingClassifier(learning_rate=0.01, n_estimators=1000)
+              precision    recall  f1-score   support
+
+           0       0.50      0.57      0.53         7
+           1       0.25      0.29      0.27         7
+           2       0.25      0.17      0.20         6
+
+    accuracy                           0.35        20
+   macro avg       0.33      0.34      0.33        20
+weighted avg       0.34      0.35      0.34        20
+
+
+
+Result of: AdaBoostClassifier()
+              precision    recall  f1-score   support
+
+           0       0.33      0.29      0.31         7
+           1       0.30      0.43      0.35         7
+           2       0.50      0.33      0.40         6
+
+    accuracy                           0.35        20
+   macro avg       0.38      0.35      0.35        20
+weighted avg       0.37      0.35      0.35        20
+
+
+
+Result of: XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, enable_categorical=False,
+              gamma=0, gpu_id=-1, importance_type=None,
+              interaction_constraints='', learning_rate=0.300000012,
+              max_delta_step=0, max_depth=6, min_child_weight=1, missing=nan,
+              monotone_constraints='()', n_estimators=1000, n_jobs=8,
+              num_parallel_tree=1, objective='multi:softprob', predictor='auto',
+              random_state=0, reg_alpha=0, reg_lambda=1, scale_pos_weight=None,
+              subsample=1, tree_method='exact', validate_parameters=1,
+              verbosity=None)
+              precision    recall  f1-score   support
+
+           0       0.50      0.43      0.46         7
+           1       0.12      0.14      0.13         7
+           2       0.33      0.33      0.33         6
+
+    accuracy                           0.30        20
+   macro avg       0.32      0.30      0.31        20
+weighted avg       0.32      0.30      0.31        20
+

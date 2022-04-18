@@ -1,0 +1,103 @@
+
+------------------> Report of PDvsHC
+
+Result of: SVC()
+              precision    recall  f1-score   support
+
+           0       0.80      0.89      0.84         9
+           1       0.50      0.33      0.40         3
+
+    accuracy                           0.75        12
+   macro avg       0.65      0.61      0.62        12
+weighted avg       0.72      0.75      0.73        12
+
+
+Result of: DecisionTreeClassifier()
+              precision    recall  f1-score   support
+
+           0       0.89      0.89      0.89         9
+           1       0.67      0.67      0.67         3
+
+    accuracy                           0.83        12
+   macro avg       0.78      0.78      0.78        12
+weighted avg       0.83      0.83      0.83        12
+
+
+Result of: RandomForestClassifier(n_estimators=1000)
+              precision    recall  f1-score   support
+
+           0       0.78      0.78      0.78         9
+           1       0.33      0.33      0.33         3
+
+    accuracy                           0.67        12
+   macro avg       0.56      0.56      0.56        12
+weighted avg       0.67      0.67      0.67        12
+
+
+
+Result of: LogisticRegression()
+              precision    recall  f1-score   support
+
+           0       1.00      0.78      0.88         9
+           1       0.60      1.00      0.75         3
+
+    accuracy                           0.83        12
+   macro avg       0.80      0.89      0.81        12
+weighted avg       0.90      0.83      0.84        12
+
+
+
+Result of: KNeighborsClassifier(n_neighbors=25)
+              precision    recall  f1-score   support
+
+           0       1.00      0.44      0.62         9
+           1       0.38      1.00      0.55         3
+
+    accuracy                           0.58        12
+   macro avg       0.69      0.72      0.58        12
+weighted avg       0.84      0.58      0.60        12
+
+
+
+Result of: GradientBoostingClassifier(learning_rate=0.01, n_estimators=1000)
+              precision    recall  f1-score   support
+
+           0       1.00      0.89      0.94         9
+           1       0.75      1.00      0.86         3
+
+    accuracy                           0.92        12
+   macro avg       0.88      0.94      0.90        12
+weighted avg       0.94      0.92      0.92        12
+
+
+
+Result of: AdaBoostClassifier()
+              precision    recall  f1-score   support
+
+           0       1.00      0.89      0.94         9
+           1       0.75      1.00      0.86         3
+
+    accuracy                           0.92        12
+   macro avg       0.88      0.94      0.90        12
+weighted avg       0.94      0.92      0.92        12
+
+
+
+Result of: XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, enable_categorical=False,
+              gamma=0, gpu_id=-1, importance_type=None,
+              interaction_constraints='', learning_rate=0.300000012,
+              max_delta_step=0, max_depth=6, min_child_weight=1, missing=nan,
+              monotone_constraints='()', n_estimators=1000, n_jobs=8,
+              num_parallel_tree=1, predictor='auto', random_state=0,
+              reg_alpha=0, reg_lambda=1, scale_pos_weight=1, subsample=1,
+              tree_method='exact', validate_parameters=1, verbosity=None)
+              precision    recall  f1-score   support
+
+           0       1.00      0.67      0.80         9
+           1       0.50      1.00      0.67         3
+
+    accuracy                           0.75        12
+   macro avg       0.75      0.83      0.73        12
+weighted avg       0.88      0.75      0.77        12
+
