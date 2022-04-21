@@ -1,0 +1,16 @@
+Model: <class 'sklearn.svm._classes.SVC'>
+Accuracy: 75.41 (12.94)
+Model: <class 'sklearn.tree._classes.DecisionTreeClassifier'>
+Accuracy: 68.45 (16.50)
+Model: <class 'sklearn.ensemble._forest.RandomForestClassifier'>
+Accuracy: 75.20 (12.75)
+Model: <class 'sklearn.neighbors._classification.KNeighborsClassifier'>
+Accuracy: 59.89 (15.80)
+Model: <class 'sklearn.linear_model._logistic.LogisticRegression'>
+Accuracy: 72.11 (13.52)
+Model: <class 'sklearn.ensemble._gb.GradientBoostingClassifier'>
+Accuracy: 71.46 (14.15)
+Model: <class 'sklearn.ensemble._weight_boosting.AdaBoostClassifier'>
+Accuracy: 64.88 (15.24)
+Model: <class 'xgboost.sklearn.XGBClassifier'>
+Accuracy: 70.16 (14.60)
